@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandfather Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../GFC/grandfather-clock/style.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-4">Grandfather Clock</h1>
+        <div class="clock mx-auto">
+            <div class="face">
+                <div class="hand hour" id="hour-hand"></div>
+                <div class="hand minute" id="minute-hand"></div>
+                <div class="hand second" id="second-hand"></div>
+            </div>
+        </div>
+        <div class="controls mt-4">
+            <button class="btn btn-primary" onclick="changeClockColor()">Change Clock Color</button>
+        </div>
+    </div>
+    <script src="../GFC/grandfather-clock/clock.js"></script>
+</body>
+</html>
